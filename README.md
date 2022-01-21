@@ -92,3 +92,43 @@ def GCD(x,y):
         return n;
     }
 ```
+### 초기화
+```python
+#파이썬
+def func(a = 0){
+}
+```
+```java
+//java
+public class func{
+    int a;
+    
+    func(int a){
+    	super();
+        this.a = a;
+    }
+    func(){
+	this(0);
+    }
+
+}
+
+```
+
+### dict vs hashmap
+```python
+# 파이썬
+dct = {}
+dct[1] = 2
+dct[1] +=1
+print(dct[1])
+```
+
+```java
+// java
+		HashMap<Integer, Integer> map = new HashMap<>();
+		map.put(1, 2);
+		System.out.println(map.get(1));
+		map.put(1, map.get(1)+1);
+		System.out.println(map.get(1));
+```
